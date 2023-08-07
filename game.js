@@ -76,7 +76,7 @@ const makeLogsTempArray = (data) => {
 	return arr.map((el) => {
 		const log = el.split(" ");
 		return {
-			date: new Date(+log[0].trim()).toLocaleString("ru-RU"),
+			date: new Date(+log[0]).toLocaleString("ru-RU"),
 			name: log[1].trim(),
 			result: log[2] === "true" ? gamesStatuses.win : gamesStatuses.lose,
 		};
