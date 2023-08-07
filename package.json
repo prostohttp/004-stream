@@ -1,0 +1,16 @@
+{
+  "name": "004-stream",
+  "version": "1.0.0",
+  "description": "Консольная игра «Орёл или решка»",
+  "main": "game.js",
+  "type": "module",
+  "bin": {
+    "game": "./game.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
